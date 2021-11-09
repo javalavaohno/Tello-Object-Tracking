@@ -4,7 +4,7 @@ import time
 ######################################################################
 width = 320  # WIDTH OF THE IMAGE
 height = 240  # HEIGHT OF THE IMAGE
-startCounter =0   #  0 FOR FIGHT 1 FOR TESTING
+startCounter = 0   #  0 FOR FIGHT 1 FOR TESTING
 ######################################################################
 
 

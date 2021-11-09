@@ -43,11 +43,11 @@ def empty(a):
 
 cv2.namedWindow("HSV")
 cv2.resizeWindow("HSV",640,240)
-cv2.createTrackbar("HUE Min","HSV",20,179,empty)
-cv2.createTrackbar("HUE Max","HSV",40,179,empty)
-cv2.createTrackbar("SAT Min","HSV",148,255,empty)
+cv2.createTrackbar("HUE Min","HSV",35,179,empty)
+cv2.createTrackbar("HUE Max","HSV",50,179,empty)
+cv2.createTrackbar("SAT Min","HSV",97,255,empty)
 cv2.createTrackbar("SAT Max","HSV",255,255,empty)
-cv2.createTrackbar("VALUE Min","HSV",89,255,empty)
+cv2.createTrackbar("VALUE Min","HSV",60,255,empty)
 cv2.createTrackbar("VALUE Max","HSV",255,255,empty)
 
 cv2.namedWindow("Parameters")
